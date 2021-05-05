@@ -2,12 +2,8 @@ package com.selayar.history.Retrofit
 
 import com.selayar.history.Model.GlobalResult
 import com.selayar.history.Model.ModelListWrapper
-import id.deval.skeletonproject.Models.WisataSejarah
+import id.deval.soppengapp.Models.WisataSejarah
 import io.reactivex.Observable
-import okhttp3.MultipartBody
-import okhttp3.ResponseBody
-import retrofit2.Call
-import retrofit2.Response
 import retrofit2.http.*
 
 

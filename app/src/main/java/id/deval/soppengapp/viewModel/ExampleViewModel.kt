@@ -1,4 +1,4 @@
-package id.deval.skeletonproject.viewModel
+package id.deval.soppengapp.viewModel
 
 //import Penjualan2
 

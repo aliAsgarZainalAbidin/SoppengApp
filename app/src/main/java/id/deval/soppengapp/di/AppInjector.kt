@@ -1,4 +1,4 @@
-package id.deval.skeletonproject.di
+package id.deval.soppengapp.di
 
 import android.app.Activity
 import android.app.Application
@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
-import id.deval.skeletonproject.Util.MyApp
+import id.deval.soppengapp.Util.MyApp
 import dagger.android.AndroidInjection
 import dagger.android.HasAndroidInjector
 import dagger.android.support.AndroidSupportInjection

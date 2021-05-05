@@ -1,7 +1,7 @@
-package id.deval.skeletonproject.di.module
+package id.deval.soppengapp.di.module
 
 
-import id.deval.skeletonproject.activity.MainActivity
+import id.deval.soppengapp.activity.MainActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

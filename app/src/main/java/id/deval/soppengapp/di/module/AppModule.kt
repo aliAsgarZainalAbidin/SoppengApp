@@ -1,8 +1,8 @@
-package id.deval.skeletonproject.di.module
+package id.deval.soppengapp.di.module
 
 import android.app.Application
 import android.content.Context
-import id.deval.skeletonproject.Util.Session
+import id.deval.soppengapp.Util.Session
 import dagger.Module
 import dagger.Provides
 import io.realm.Realm

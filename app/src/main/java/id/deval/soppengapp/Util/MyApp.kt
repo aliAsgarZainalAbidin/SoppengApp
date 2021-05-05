@@ -1,14 +1,14 @@
-package id.deval.skeletonproject.Util
+package id.deval.soppengapp.Util
 
 import android.app.Application
 import android.content.Context
 import androidx.multidex.MultiDex
-import id.deval.skeletonproject.di.AppComponent
-import id.deval.skeletonproject.di.AppInjector
+import id.deval.soppengapp.di.AppComponent
+import id.deval.soppengapp.di.AppInjector
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector
-import id.deval.skeletonproject.di.DaggerAppComponent
+import id.deval.soppengapp.di.DaggerAppComponent
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import javax.inject.Inject

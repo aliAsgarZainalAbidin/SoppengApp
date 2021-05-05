@@ -1,4 +1,4 @@
-package id.deval.skeletonproject.Models
+package id.deval.soppengapp.Models
 
 import androidx.annotation.Keep
 import com.google.gson.annotations.SerializedName

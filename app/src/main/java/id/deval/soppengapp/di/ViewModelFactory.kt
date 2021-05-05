@@ -1,4 +1,4 @@
-package id.deval.skeletonproject.di
+package id.deval.soppengapp.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

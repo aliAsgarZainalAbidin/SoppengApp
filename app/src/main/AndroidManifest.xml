@@ -6,14 +6,14 @@
     <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
-        android:name="id.deval.skeletonproject.Util.MyApp"
+        android:name="id.deval.soppengapp.Util.MyApp"
         android:allowBackup="true"
         android:usesCleartextTraffic="true"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="m">
-        <activity android:name="id.deval.skeletonproject.activity.MainActivity">
+        <activity android:name="id.deval.soppengapp.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

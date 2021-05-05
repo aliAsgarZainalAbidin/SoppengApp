@@ -1,4 +1,4 @@
-package id.deval.skeletonproject.Util
+package id.deval.soppengapp.Util
 
 import android.content.Context
 import android.content.SharedPreferences

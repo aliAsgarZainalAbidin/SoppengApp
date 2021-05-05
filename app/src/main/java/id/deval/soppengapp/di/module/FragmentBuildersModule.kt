@@ -1,7 +1,6 @@
-package id.deval.skeletonproject.di.module
+package id.deval.soppengapp.di.module
 
 import dagger.Module
-import dagger.android.ContributesAndroidInjector
 
 /**
  * Ini injector untuk Fragment, usahakan pakai single activity saja setelah halaman login

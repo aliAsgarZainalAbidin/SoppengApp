@@ -1,4 +1,4 @@
-package id.deval.skeletonproject.di.module
+package id.deval.soppengapp.di.module
 
 import android.os.Build
 import com.selayar.history.BuildConfig

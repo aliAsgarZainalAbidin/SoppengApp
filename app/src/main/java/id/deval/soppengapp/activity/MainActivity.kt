@@ -1,8 +1,7 @@
-package id.deval.skeletonproject.activity
+package id.deval.soppengapp.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
 import com.selayar.history.R
 import dagger.android.AndroidInjection
 import dagger.android.AndroidInjector
