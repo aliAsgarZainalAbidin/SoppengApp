@@ -4,10 +4,11 @@
     <color name="colorPrimaryTrans">#66FFFFFF</color>
     <color name="colorPrimaryDark">#C6C6C6</color>
     <color name="colorPlaceholder">#DDDDDD</color>
-    <color name="colorSecondary">#FFD819</color>
+    <color name="colorSecondary">#FFC332</color>
+    <color name="colorTransparants">#00FFFFFF</color>
     <color name="colorSecondaryDisable">#80FFD819</color>
     <color name="colorAccent">#F62E4B</color>
-    <color name="colorGrey">#BBBBBB</color>
+    <color name="colorGrey">#4B4B4B</color>
 
     <array name="rainbow">
         <item>@color/red_500</item>
