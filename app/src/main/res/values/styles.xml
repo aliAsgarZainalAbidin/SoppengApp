@@ -5,8 +5,16 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBarOverlay">true</item>
 <!--        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>-->
         <item name="bottomSheetDialogTheme">@style/AppBottomModalDialogSheet</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="AppTheme">
+        <item name="background">@color/colorTransparants</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="colorPrimary">@android:color/transparent</item>
     </style>
     
     <style name="Bottom.Navigation.Custom" parent="Widget.Design.BottomNavigationView">
