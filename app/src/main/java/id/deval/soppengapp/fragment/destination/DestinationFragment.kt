@@ -27,6 +27,11 @@ class DestinationFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        mt_destination.setNavigationOnClickListener {
+            (activity as AppCompatActivity).findNavController(R.id.fragment_main_nav_host)
+                .popBackStack()
+        }
+
         mt_destination.setOnMenuItemClickListener {
             when(it.itemId){
                 R.id.help-> {
