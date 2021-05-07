@@ -1,7 +1,7 @@
-package com.selayar.history.Retrofit
+package id.deval.soppengapp.Retrofit
 
-import com.selayar.history.Model.GlobalResult
-import com.selayar.history.Model.ModelListWrapper
+import id.deval.soppengapp.Model.GlobalResult
+import id.deval.soppengapp.Model.ModelListWrapper
 import id.deval.soppengapp.Models.WisataSejarah
 import io.reactivex.Observable
 import retrofit2.http.*

@@ -1,8 +1,8 @@
-package com.selayar.history.Retrofit
+package id.deval.soppengapp.Retrofit
 
 import android.os.Build
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
-import com.selayar.history.BuildConfig
+import id.deval.soppengapp.BuildConfig
 import okhttp3.*
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

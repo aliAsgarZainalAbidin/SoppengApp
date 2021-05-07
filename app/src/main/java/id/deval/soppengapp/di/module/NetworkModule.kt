@@ -1,8 +1,8 @@
 package id.deval.soppengapp.di.module
 
 import android.os.Build
-import com.selayar.history.BuildConfig
-import com.selayar.history.Retrofit.ApiInterface
+import id.deval.soppengapp.BuildConfig
+import id.deval.soppengapp.Retrofit.ApiInterface
 import dagger.Module
 import dagger.Provides
 import okhttp3.*

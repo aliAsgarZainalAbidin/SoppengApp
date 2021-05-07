@@ -1,8 +1,11 @@
 package id.deval.soppengapp.activity
 
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.selayar.history.R
+import id.deval.soppengapp.R
 import dagger.android.AndroidInjection
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
@@ -26,6 +29,10 @@ class MainActivity : AppCompatActivity(), HasAndroidInjector {
 //            this,
 //            arrayOf(android.Manifest.permission.CAMERA), 50
 //        )
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return false
     }
 
     override fun androidInjector(): AndroidInjector<Any> {

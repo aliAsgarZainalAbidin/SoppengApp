@@ -1,4 +1,4 @@
-package com.selayar.history.Model
+package id.deval.soppengapp.Model
 
 import androidx.annotation.Keep
 import com.google.gson.annotations.SerializedName
