@@ -27,6 +27,21 @@ class DestinationFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        fl_destination_1.setOnClickListener {
+            (activity as AppCompatActivity).findNavController(R.id.fragment_main_nav_host)
+                .navigate(R.id.action_destinationFragment_to_detailFragment)
+        }
+
+        fl_destination_2.setOnClickListener {
+            (activity as AppCompatActivity).findNavController(R.id.fragment_main_nav_host)
+                .navigate(R.id.action_destinationFragment_to_detailFragment)
+        }
+
+        fl_destination_3.setOnClickListener {
+            (activity as AppCompatActivity).findNavController(R.id.fragment_main_nav_host)
+                .navigate(R.id.action_destinationFragment_to_detailFragment)
+        }
+
         mt_destination.setNavigationOnClickListener {
             (activity as AppCompatActivity).findNavController(R.id.fragment_main_nav_host)
                 .popBackStack()

@@ -30,6 +30,9 @@
         <action
             android:id="@+id/action_destinationFragment_to_aboutFragment"
             app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_destinationFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
     </fragment>
     <fragment
         android:id="@+id/helpFragment"
@@ -40,4 +43,9 @@
         android:name="id.deval.soppengapp.fragment.about.AboutFragment"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="id.deval.soppengapp.fragment.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
 </navigation>
